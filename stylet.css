@@ -1,0 +1,59 @@
+body{
+    font-family: "Audiowide", sans-serif;
+    color: brown;
+    text-decoration-color: aliceblue;
+    background-image: url(https://images.assetsdelivery.com/compings_v2/vectorstockvadim/vectorstockvadim2108/vectorstockvadim210802708.jpg);
+}
+
+.text{
+    text-align: center;
+    color: crimson;
+    font-family: "Sofia", sans-serif;;
+    font-size: 100px;
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border: 5px solid rgb(116, 50, 50);
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    font-size: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background:wheat;
+    user-select: none;
+}
+
+#top-left {
+    border-top-left-radius: 14%;
+}
+#top-right {
+    border-top-right-radius: 14%;
+}
+#bottom-left {
+    border-bottom-left-radius: 14%;
+}
+#bottom-right {
+    border-bottom-right-radius: 14%;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    font-size: 30px;
+    border-radius: 20%;
+    margin-top: 10px;
+}
+
